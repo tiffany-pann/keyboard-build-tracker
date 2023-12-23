@@ -1,7 +1,8 @@
 version: "3"
 services:
   keyboards:
-    image: tiffanypan/keyboards-test
+    image: tiffanypan/keyboard-build-tracker:v1.0.0
     ports:
       - "8080:8080"
-    env_file: .env
+    env_file:
+      - .env
