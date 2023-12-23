@@ -22,3 +22,9 @@
 .env.local
 .env.development
 .env.production
+backend/src/.dockerignore
+backend/src/.vscode
+backend/src/__pycache__
+backend/src/instance
+backend/src/venv
+backend/src/.env
